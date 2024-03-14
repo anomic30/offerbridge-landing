@@ -16,9 +16,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="hidden flex-grow md:flex justify-center items-center gap-10">
-          <Link href="/" className="text-sm hover:font-medium transition-all duration-300">Features</Link>
-          <Link href="/" className="text-sm hover:font-medium transition-all duration-300">Pricing</Link>
-          <Link href="/" className="text-sm hover:font-medium transition-all duration-300">FAQs</Link>
+          <Link href="#features" className="text-sm hover:font-medium transition-all duration-300">Features</Link>
+          <Link href="#pricing" className="text-sm hover:font-medium transition-all duration-300">Pricing</Link>
+          <Link href="#faqs" className="text-sm hover:font-medium transition-all duration-300">FAQs</Link>
         </div>
         <div className="hidden md:flex items-center gap-3">
           <Button variant="outline" className="hover:text-app rounded-lg">
@@ -43,9 +43,9 @@ const Navbar = () => {
           <SheetContent className="p-3 pt-10">
             <SheetHeader className="text-left">
             <div className="flex flex-col gap-5">
-              <Link href="/" className="text-md hover:font-medium transition-all duration-300">Features</Link>
-              <Link href="/" className="text-md hover:font-medium transition-all duration-300">Pricing</Link>
-              <Link href="/" className="text-md hover:font-medium transition-all duration-300">FAQs</Link>
+              <Link href="#features" className="text-md hover:font-medium transition-all duration-300">Features</Link>
+              <Link href="#pricing" className="text-md hover:font-medium transition-all duration-300">Pricing</Link>
+              <Link href="#faqs" className="text-md hover:font-medium transition-all duration-300">FAQs</Link>
             </div>
             </SheetHeader>
           </SheetContent>

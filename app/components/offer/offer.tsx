@@ -46,7 +46,7 @@ const Offer = () => {
           </Accordion>
         </div>
       </div>
-      <Image src={offerImg} alt="Manage Team" className="hidden md:block absolute top-1/2 -translate-y-1/2 right-0 w-2/5 mt-24" />
+      <Image src={offerImg} alt="Offer" className="hidden md:block absolute top-1/2 -translate-y-1/2 right-0 w-2/5 mt-24 rounded-tl-xl" />
     </section>
   )
 }

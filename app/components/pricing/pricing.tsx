@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 
 const Pricing = () => {
   return (
-    <section className="w-full relative bg-[#F7F9FB]">
+    <section className="w-full relative bg-[#F7F9FB]" id="pricing">
       <section className="w-full mx-auto px-[1rem] md:px-[2rem] max-w-screen-lg py-10 md:py-20">
         <p className="uppercase text-center text-[12px] font-semibold tracking-widest">
           PRICING
@@ -19,7 +19,7 @@ const Pricing = () => {
         </p>
         <div className="mt-10 md:mt-20 w-full grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-[5%]">
           <div className="bg-white p-8 rounded-xl relative max-w-lg">
-            <div className="absolute top-0 left-8 bg-gray-100 py-1 px-4">
+            <div className="absolute top-0 left-8 bg-gray-100 py-1 px-4 rounded-bl-lg rounded-br-lg">
               <p className="text-xs font-medium">BEST FOR SMALL TEAMS</p>
             </div>
             <div className="flex items-end gap-3 mt-2">
@@ -55,7 +55,7 @@ const Pricing = () => {
             </Button>
           </div>
           <div className="bg-white p-8 rounded-xl relative max-w-lg">
-            <div className="absolute top-0 left-8 bg-app py-1 px-4">
+            <div className="absolute top-0 left-8 bg-app py-1 px-4 rounded-bl-lg rounded-br-lg">
               <p className="text-xs font-medium text-white">FOUNDERS CHOICE</p>
             </div>
             <div className="flex items-end gap-3 mt-2">
@@ -76,7 +76,7 @@ const Pricing = () => {
               <div className="flex items-center gap-2">
                 <Image src={ticks} alt="Ticks" />
                 <p className="text-sm font-semibold">
-                  One Interviewer allowed
+                  Multiple Interviewers allowed
                 </p>
               </div>
               <div className="flex items-center gap-2">

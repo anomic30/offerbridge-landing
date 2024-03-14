@@ -15,14 +15,14 @@ const FooterBanner = () => {
         Conduct interviews, Schedule Assessments, Take Rounds, and Send Offer Letter. All of this here!
       </p>
       <div className="mt-6 z-10 relative">
-        <Link href="/c-onboarding">
-          <Button className="w-full sm:w-auto rounded-lg mx-1">
-            Build Your Team <ArrowRight className="ml-2 h-4 w-4" />
+        <Link href="/" className="group">
+          <Button className="w-full sm:w-auto rounded-lg mx-1 bg-white text-[#1D2534] hover:bg-white">
+            Try For Free <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200"/>
           </Button>
         </Link>
-        <Link href="/contact">
+        <Link href="/">
           <Button variant="outline" className="mt-4 w-full sm:w-auto rounded-lg mx-1 bg-transparent text-white">
-            Not Sure? Get In Touch <ArrowRight className="ml-2 h-4 w-4" />
+            Contact Us
           </Button>
         </Link>
       </div>

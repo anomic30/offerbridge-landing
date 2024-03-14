@@ -37,7 +37,7 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <Image src={heroImg} alt="Teams" className="hidden md:block absolute top-1/2 -translate-y-1/2 right-0 w-2/5" />
+      <Image src={heroImg} priority={true} alt="Hero" className="hidden md:block absolute top-1/2 -translate-y-1/2 right-0 w-2/5 rounded-tl-lg" />
     </section>
   );
 };

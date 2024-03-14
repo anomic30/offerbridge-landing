@@ -12,26 +12,26 @@ const faqs1 = [
   },
   {
     title: "How are you so cheap?",
-    content: "We are able to offer our services at a lower price point because we are a small team and we don't have the overheads that larger companies do.",
+    content: "We are charging only for the man hours put into developing this tool, and maintenance. Goal is to help you streamline your interviews without additional burden.",
   },
   {
     title: "Is there a free version?",
-    content: "Yes, we offer a free version of our platform with limited features. You can upgrade to a paid plan at any time to access more features.",
+    content: "Yes, you can set up your first 2 pipelines for free and interview up to 10 candidates in each before you have to upgrade.",
   },
 ];
 
 const faqs2 = [
   {
     title: "Can I add more users?",
-    content: "Yes, you can add more users to your account. Please contact us to add more users to your account.",
+    content: "You can share a unique administrative link for each campaign with your associates, and they can view the applicant information.",
   },
   {
     title: "How long does it take to set up?",
-    content: "It takes less than 5 minutes to set up your account and start using our platform. You can start using our platform immediately after signing up.",
+    content: "You can go live with a basic pipeline in under a minute, with additional time required for integrations, assessments, and further customisations.",
   },
   {
     title: "Can I get a refund?",
-    content: "Yes, we offer a 30-day money-back guarantee. If you are not satisfied with our platform, you can request a refund within 30 days of signing up.",
+    content: "Yes, there is a 7 days refund window if you have not created more than 2 pipelines.",
   },
 ];
 

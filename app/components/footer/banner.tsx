@@ -15,12 +15,12 @@ const FooterBanner = () => {
         Conduct interviews, Schedule Assessments, Take Rounds, and Send Offer Letter. All of this here!
       </p>
       <div className="mt-6 z-10 relative">
-        <Link href="/" className="group">
+        <Link href="/soon" className="group">
           <Button className="w-full sm:w-auto rounded-lg mx-1 bg-white text-[#1D2534] hover:bg-white">
             Try For Free <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200"/>
           </Button>
         </Link>
-        <Link href="/">
+        <Link href="mailto:hello@notfulltime.io">
           <Button variant="outline" className="mt-4 w-full sm:w-auto rounded-lg mx-1 bg-transparent text-white">
             Contact Us
           </Button>

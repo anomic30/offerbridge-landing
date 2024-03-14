@@ -16,6 +16,7 @@ import sunil from "../../assets/images/sunil.png";
 import agniva from "../../assets/images/agniva.png";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const Features = () => {
   return (
@@ -45,10 +46,12 @@ const Features = () => {
                 </div>
               </div>
               <div className="max-w-fit group mt-12">
-                <Button className="w-auto rounded-lg bg-app hover:shadow-md hover:bg-app hover:shadow-red-300 transition-all duration-300">
-                  Try For Free
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
-                </Button>
+                <Link href="/soon">
+                  <Button className="w-auto rounded-lg bg-app hover:shadow-md hover:bg-app hover:shadow-red-300 transition-all duration-300">
+                    Try For Free
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
@@ -87,10 +90,12 @@ const Features = () => {
                 </div>
               </div>
               <div className="max-w-fit group mt-12">
-                <Button className="w-auto rounded-lg bg-[#f6a867] hover:shadow-md hover:bg-[#f6a867] hover:shadow-orange-200 transition-all duration-300">
-                  Try For Free
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
-                </Button>
+                <Link href="/soon">
+                  <Button className="w-auto rounded-lg bg-[#f6a867] hover:shadow-md hover:bg-[#f6a867] hover:shadow-orange-200 transition-all duration-300">
+                    Try For Free
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
+                  </Button>
+                </Link>
               </div>
             </div>
             <Image src={feat2} alt="Feat2"/>
@@ -127,10 +132,12 @@ const Features = () => {
                 </div>
               </div>
               <div className="max-w-fit group mt-12">
-                <Button className="w-auto rounded-lg bg-[#00A58E] hover:shadow-md hover:bg-[#00A58E] hover:shadow-emerald-200 transition-all duration-300">
-                  Try For Free
-                  <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
-                </Button>
+                <Link href="/soon">
+                  <Button className="w-auto rounded-lg bg-[#00A58E] hover:shadow-md hover:bg-[#00A58E] hover:shadow-emerald-200 transition-all duration-300">
+                    Try For Free
+                    <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>

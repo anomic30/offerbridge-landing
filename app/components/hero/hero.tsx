@@ -30,10 +30,12 @@ const Hero = () => {
             </div>
           </div>
           <div className="max-w-fit group mt-12">
-            <Button className="w-auto rounded-lg bg-app hover:shadow-md hover:bg-app hover:shadow-red-300 transition-all duration-300">
-              Try For Free
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
-            </Button>
+            <Link href="/soon">
+              <Button className="w-auto rounded-lg bg-app hover:shadow-md hover:bg-app hover:shadow-red-300 transition-all duration-300">
+                Try For Free
+                <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200" />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

@@ -8,7 +8,9 @@ import { Mail } from "lucide-react";
 const Footer = () => {
   return (
     <section className="w-full mx-auto px-[1rem] md:px-[2rem] max-w-screen-2xl pb-10 md:pb-20 ">
-      <Image src={brandLogo} alt="Offer Bridge" priority />
+      <Link href="/">
+        <Image src={brandLogo} alt="Offer Bridge" priority />
+      </Link>
       <Link href="https://notfulltime.io" className="text-[8px]">By Not Fulltime</Link>
       <div className="flex items-center justify-between flex-wrap mt-8">
         <p className="font-medium">World&apos;s Easiest Applicant Tracking Software for SMBs and small teams.</p>

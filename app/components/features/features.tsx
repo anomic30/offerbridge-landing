@@ -29,7 +29,7 @@ const Features = () => {
             <div>
               <p className="uppercase text-[12px] text-app font-semibold tracking-widest mt-2">CALENDLY INTEGRATED</p>
               <h2 className="text-5xl mt-6 font-bold leading-snug">Automated Interview Scheduling</h2>
-              <p className="mt-6">Stop sending multiple Calendly, meets, or zoom links to Applicants daily</p>
+              <p className="mt-6">Stop sending multiple Calendly, Meets, or Zoom links to applicants daily</p>
 
               <div className="grid grid-cols-1 gap-4 mt-6">
                 <div className="flex items-center gap-2">

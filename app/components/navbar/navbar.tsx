@@ -11,7 +11,9 @@ const Navbar = () => {
       <div className="w-full mx-auto px-[1rem] md:px-[2rem] flex h-20 max-w-screen-2xl items-center justify-between">
         <div className="mr-4 items-start">
           <div className="h-20">
-            <Image src={brandLogo} alt="Offer Bridge" priority />
+            <Link href="/">
+                <Image src={brandLogo} alt="Offer Bridge" priority />
+            </Link>
             <Link href="https://notfulltime.io" className="text-[8px]">By Not Fulltime</Link>
           </div>
         </div>

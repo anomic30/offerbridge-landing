@@ -30,7 +30,7 @@ const Navbar = () => {
           </Button>
           <div className="group">
             <Button className="rounded-lg bg-app hover:shadow-md hover:bg-app hover:shadow-red-300 transition-all duration-300">
-              Build Your Team <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200"/>
+              Try For Free <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition duration-200"/>
             </Button>
           </div>
         </div>

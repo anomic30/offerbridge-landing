@@ -10,7 +10,7 @@ import { Accordion } from "@radix-ui/react-accordion";
 const Hero = () => {
   return (
     <section className="w-full relative bg-[#F7F9FB]">
-      <section className="w-full min-h-[calc(100vh-80px)] mx-auto px-[1rem] md:px-[2rem] max-w-screen-2xl pt-20 pb-20 text-left">
+      <section className="w-full min-h-[calc(100vh-80px)] sm:min-h-[720px] mx-auto px-[1rem] md:px-[2rem] max-w-screen-2xl pt-20 pb-20 text-left">
         <div className="w-full md:w-3/5 py-10">
           <h1 className="text-5xl font-bold leading-snug">Set Up Your <i className="font-extrabold">Interview <br /> Pipeline</i> In <br className="md:hidden"/> <span className="text-app relative">1 Minute <Image src={rays} alt="rays" className="absolute -right-3 top-2" /></span></h1>
           <p className="mt-6">Hiring made easy! Ditch complicated tracking software. Build and manage <br /> interview pipelines with one shareable link.</p>

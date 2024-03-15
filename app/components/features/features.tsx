@@ -24,7 +24,7 @@ const Features = () => {
       <section className="w-full relative" id="features">
         <Image src={redSnake} alt="vector" className="absolute inset-0 -z-10 bottom-0 left-0 w-full h-full md:w-screen object-cover md:object-fill"/>
         <section className="w-full mx-auto px-[1rem] md:px-[2rem] max-w-screen-2xl py-10 md:py-20">
-          <div className="mt-10 md:mt-20 w-full grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-[5%]">
+          <div className="md:mt-20 w-full grid grid-cols-1 md:grid-cols-2 gap-y-4 gap-x-[5%]">
             <Image src={feat1} alt="Feat1"/>
             <div>
               <p className="uppercase text-[12px] text-app font-semibold tracking-widest mt-2">CALENDLY INTEGRATED</p>

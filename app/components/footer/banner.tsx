@@ -7,7 +7,7 @@ import { ArrowRight } from "lucide-react";
 const FooterBanner = () => {
   return (
     <section className="w-full mx-auto px-[1rem] md:px-[2rem] py-36 md:py-24 text-center bg-[#1D2534] relative overflow-y-hidden">
-      <Image src={cobra} alt="Not Fulltime" className="absolute inset-0 bottom-0 left-0 w-full md:w-screen object-cover md:object-fill" />
+      <Image src={cobra} alt="Not Fulltime" className="absolute inset-0 bottom-0 left-0 w-full h-full md:h-auto md:w-screen object-cover md:object-fill" />
       <p className="text-white font-epilogue text-5xl md:text-6xl leading-tight z-10 relative">
         One Link, One ATS, One Fee!
       </p>

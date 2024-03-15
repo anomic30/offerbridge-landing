@@ -12,7 +12,7 @@ const Pricing = () => {
           PRICING
         </p>
         <h2 className="text-center text-3xl font-semibold font-epilogue mt-6">
-          Create the perfect experience for your applicants.
+          Streamline Interviews In Minutes, Not Days!
         </h2>
         <p className="text-center text-sm mt-6 text-app">
           <strong>$200 off</strong> for first 2000 customers <strong> (only 8 left)</strong>

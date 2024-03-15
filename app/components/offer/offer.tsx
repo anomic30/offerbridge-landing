@@ -22,11 +22,11 @@ const Offer = () => {
   return (
     <section className="w-full mx-auto px-[1rem] md:px-[2rem] py-10 md:py-20 text-center relative" id="team-management">
       <p className="uppercase text-left md:text-center text-[12px] text-app font-semibold tracking-widest">WHY OFFER BRIDGE?</p>
-      <h2 className='text-left md:text-center text-3xl font-semibold font-epilogue mt-6'>Create the perfect experience for your applicants.</h2>
+      <h2 className='text-left md:text-center text-3xl font-semibold font-epilogue mt-6'>Create The Perfect Experience For Your Applicants</h2>
       <p className="text-left md:text-center text-sm mt-6 text-zinc-500">
       Speed up your interview process with a simple, easy to use ATS.
       </p>
-      <div className="w-full mx-auto max-w-screen-2xl mt-10 md:mt-20 py-5 md:py-28 text-left">
+      <div className="w-full mx-auto max-w-screen-2xl md:mt-20 py-5 md:py-28 text-left">
         <div className="w-full md:w-1/2 mt-6">
           <Accordion type="single" collapsible>
             {offerFaqs.map((faq, index) => (
